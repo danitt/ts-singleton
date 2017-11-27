@@ -1,8 +1,8 @@
 import { BoilerSingleton } from './boiler.class'
 import { BoilerAccess3 } from './access'
 
-const BoilerAccess1 = BoilerSingleton.getInstance()
-const BoilerAccess2 = BoilerSingleton.getInstance()
+const BoilerAccess1 = BoilerSingleton.instance
+const BoilerAccess2 = BoilerSingleton.instance
 
 BoilerAccess1.fill()
 BoilerAccess2.fill()

@@ -1,3 +1,3 @@
 import { BoilerSingleton } from './boiler.class'
 
-export const BoilerAccess3 = BoilerSingleton.getInstance()
+export const BoilerAccess3 = BoilerSingleton.instance
